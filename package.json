@@ -1,6 +1,6 @@
 {
-  "name": "ai-autocomplete-rage",
-  "displayName": "ai-autocomplete-rage",
+  "name": "ai-autocomplete-rage-disable",
+  "displayName": "ai-autocomplete-rage-disable",
   "description": "Disable AI autocomplete automatically",
   "version": "0.0.1",
   "engines": {
@@ -33,12 +33,12 @@
     },
     "commands": [
         {
-            "command": "ai-autocomplete-rage.handleEscape",
+            "command": "ai-autocomplete-rage-disable.handleEscape",
             "title": "Handle Escape Key Press"
         }
     ],
     "keybindings": [{
-        "command": "ai-autocomplete-rage.handleEscape",
+        "command": "ai-autocomplete-rage-disable.handleEscape",
         "key": "escape",
         "when": "editorTextFocus"
     }]

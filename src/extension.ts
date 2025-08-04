@@ -12,7 +12,7 @@ let enableTimeout: NodeJS.Timeout | null = null;
  */
 export function activate(context: vscode.ExtensionContext) {
     // Register the command that will be triggered by the keybinding
-    const disposable = vscode.commands.registerCommand('ai-autocomplete-rage.handleEscape', () => {
+    const disposable = vscode.commands.registerCommand('ai-autocomplete-rage-disable.handleEscape', () => {
         handleEscapePress();
     });
 
